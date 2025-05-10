@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bced31a2-acc8-4e53-818e-e2156492c8e6" name="Changes" comment="" />
+    <list default="true" id="bced31a2-acc8-4e53-818e-e2156492c8e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746883396022</updated>
-      <workItem from="1746883397061" duration="316000" />
+      <workItem from="1746883397061" duration="634000" />
     </task>
     <servers />
   </component>
