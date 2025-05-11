@@ -1,4 +1,4 @@
-def edit_distance(str1: str, str2: str) -> int:
+def levestain_distance(str1: str, str2: str) -> int:
     """
     Функция вычисляет **Редакционное расстояние (Levenshtein Distance)**,
     то есть минимальное количество операций (вставка, удаление, замена) для
@@ -55,16 +55,16 @@ def edit_distance(str1: str, str2: str) -> int:
 # 🔹 Тестируем
 s1 = "test"
 s2 = "tset"
-print(edit_distance(s1, s2))  # ✅ 2
+print(levestain_distance(s1, s2))  # ✅ 2
 
 s1 = "kitten"
 s2 = "sitting"
-print(edit_distance(s1, s2))  # ✅ 3
+print(levestain_distance(s1, s2))  # ✅ 3
 
 s1 = "flaw"
 s2 = "lawn"
-print(edit_distance(s1, s2))  # ✅ 2
+print(levestain_distance(s1, s2))  # ✅ 2
 
 s1 = "abcdef"
 s2 = "azced"
-print(edit_distance(s1, s2))  # ✅ 3
+print(levestain_distance(s1, s2))  # ✅ 3
